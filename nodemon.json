@@ -1,0 +1,9 @@
+{
+  "watch": [
+    "src/**/*.ts",
+    "*.ts",
+    ".env"
+  ],
+  "ext": "ts,js",
+  "exec": "ts-node ./worker.ts"
+}

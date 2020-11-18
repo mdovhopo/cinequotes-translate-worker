@@ -1,0 +1,28 @@
+GET http://{{host}}/api/v1/movies
+
+###
+
+GET http://{{host}}/api/v1/movies/IUldnpoqhxfSW3ExfGnp/quotes
+
+###
+
+POST http://{{host}}/api/v1/quotes
+Content-Type: application/json
+
+{
+  "movieTitle": "Star Wars",
+  "actor": "actor_1",
+  "quote": "quote_1"
+}
+
+###
+
+GET http://{{host}}/api/util/setup-firestore-demo-data
+
+###
+
+GET http://{{host}}/api/util/create-pubsub-topic
+
+###
+
+
